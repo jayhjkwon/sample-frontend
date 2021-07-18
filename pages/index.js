@@ -29,7 +29,7 @@ const Blog = () => {
   
   return (
     <>
-      <div>Customers</div>
+      <div>Customers...</div>
       <ul>
         {data &&
           data.data.listCustomers.items.map((item) => (
