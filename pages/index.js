@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Amplify, { API, graphqlOperation } from "aws-amplify";
-import config from "../aws-exports";
+import config from "../src/aws-exports";
 
 export const listCustomers = `
   query ListCustomers {
